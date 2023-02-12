@@ -62,7 +62,7 @@ function App() {
     };
     return (
         <>
-            <Router>
+            <Router basename='/react_dev-snekers'>
                 <Routes>
                     <Route
                         path='/'
