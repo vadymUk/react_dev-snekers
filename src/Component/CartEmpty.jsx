@@ -6,7 +6,7 @@ function CartEmpty() {
 
             <div className='cart__wrapper-cartempty'>
                 <img
-                    src='./img/Cartbox.png'
+                    src='./img/cartbox.png'
                     alt='cartempty'
                     className='cart__img-cartempty'
                 />

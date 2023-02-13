@@ -35,8 +35,8 @@ const Card = ({
                         className='card__butt-img'
                         src={
                             isActive
-                                ? "./img/heart_active.png"
-                                : "./img/heart_butt.svg"
+                                ? "./react_dev-snekers/img/heart_active.png"
+                                : "./react_dev-snekers/img/heart_butt.svg"
                         }
                         alt='heart'
                     />
@@ -66,8 +66,8 @@ const Card = ({
                         <img
                             src={
                                 isActiveAdd
-                                    ? "./img/add_active.svg"
-                                    : "./img/add.svg"
+                                    ? "./react_dev-snekers/img/add_active.svg"
+                                    : "./react_dev-snekers/img/add.svg"
                             }
                             alt='add'
                         />

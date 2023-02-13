@@ -122,7 +122,7 @@ export default function BookmarksPage({ marks, setMarks }) {
                             >
                                 <img
                                     className='card__butt-img'
-                                    src={"./img/heart_active.png"}
+                                    src='./img/heart_active.png'
                                     alt='heart'
                                 />
                             </button>
