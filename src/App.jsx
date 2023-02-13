@@ -65,7 +65,7 @@ function App() {
             <Router basename='/react_dev-snekers'>
                 <Routes>
                     <Route
-                        path=''
+                        path='/'
                         element={
                             <CartContext.Provider value={{ add }}>
                                 <MainPage

@@ -16,7 +16,7 @@ const Carusel = () => (
                 <h3 style={contentStyle}>
                     <img
                         style={{ height: "100%", width: "100%" }}
-                        src='./img/slider.jpeg'
+                        src='/react_dev-snekers/img/slider.jpeg'
                         alt='snekers'
                     />
                 </h3>
@@ -25,7 +25,7 @@ const Carusel = () => (
                 <h3 style={contentStyle}>
                     <img
                         style={{ height: "100%", width: "100%" }}
-                        src='./img/slider2.jpeg'
+                        src='/react_dev-snekers/img/slider2.jpeg'
                         alt='snekers'
                     />
                 </h3>
@@ -34,7 +34,7 @@ const Carusel = () => (
                 <h3 style={contentStyle}>
                     <img
                         style={{ height: "100%", width: "100%" }}
-                        src='./img/slider3.jpeg'
+                        src='/react_dev-snekers/img/slider3.jpeg'
                         alt='snekers'
                     />
                 </h3>
