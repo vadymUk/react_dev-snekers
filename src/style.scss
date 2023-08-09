@@ -7,7 +7,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 15px 10px;
 }
 
 .header {
@@ -20,13 +20,14 @@ body {
             display: flex;
 
             img {
-                margin-right: 15px;
+                margin: 0 15px;
             }
         }
 
         &-icon {
             display: flex;
             gap: 30px;
+            padding: 0 10px;
 
             span {
                 font-weight: 600;
@@ -79,6 +80,7 @@ body {
 
     &__main-wrapper {
         display: flex;
+        justify-content: center;
         column-gap: 20px;
         flex-wrap: wrap;
     }
@@ -109,6 +111,7 @@ body {
 
     &__wrapper {
         display: flex;
+        justify-content: center;
         column-gap: 20px;
         flex-wrap: wrap;
         margin-top: 15px;
@@ -156,7 +159,7 @@ body {
         display: flex;
         justify-content: space-between;
         margin-top: 40px;
-        padding: 0;
+        padding: 10px;
 
         li {
             list-style: none;
@@ -171,7 +174,7 @@ body {
     &__input {
         position: relative;
         input {
-            width: 250px;
+            max-width: 250px;
             height: 45px;
             border: 1px solid #f3f3f3;
             border-radius: 10px;
@@ -187,6 +190,9 @@ body {
             transform: translate(-50%, -50%);
             background: url("./Component/img/Search.png") no-repeat center
                 center;
+            @media (max-width: 400px) {
+                top: 33%;
+            }
         }
     }
 }
@@ -388,7 +394,7 @@ body {
         &::before {
             position: absolute;
             content: "";
-            left: 0;
+            left: 15px;
             top: 50%;
             transform: translate(-50%, -50%);
             height: 35px;
